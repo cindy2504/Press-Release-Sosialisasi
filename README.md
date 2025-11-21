@@ -1,1 +1,209 @@
-# Press-Release-Sosialisasi
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sosialisasi Pembelajaran Hidup dengan Pancasila — UBSI</title>
+  <meta name="description" content="Press release: Sosialisasi Pemahaman dan Pembelajaran Hidup dengan Pancasila oleh Mahasiswa Universitas Bina Sarana Informatika di SD Negeri Pamulang Tengah." />
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Minor custom styles */
+    .hero-bg { background: linear-gradient(180deg, rgba(255,247,237,1) 0%, rgba(245,250,255,1) 100%); }
+    .card-shadow { box-shadow: 0 6px 18px rgba(17,24,39,0.08); }
+  </style>
+</head>
+<body class="antialiased text-slate-800 bg-white">
+  <!-- Header -->
+  <header class="bg-white border-b">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div>
+          <a href="#" class="text-lg font-semibold text-slate-900">Universitas Bina Sarana Informatika</a>
+          <div class="text-sm text-slate-500">Program Pengabdian Masyarakat</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-600">
+        <a href="#tujuan" class="hover:text-slate-900">Tujuan</a>
+        <a href="#tentang" class="hover:text-slate-900">Tentang Sekolah</a>
+        <a href="#problem" class="hover:text-slate-900">Permasalahan & Solusi</a>
+        <a href="#evaluasi" class="hover:text-slate-900">Evaluasi</a>
+      </nav>
+      <div class="md:hidden">
+        <button id="menuBtn" aria-label="toggle menu" class="p-2 rounded-md border">
+          ☰
+        </button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden border-t">
+      <div class="px-6 py-4 flex flex-col gap-2">
+        <a href="#tujuan" class="text-slate-700">Tujuan</a>
+        <a href="#tentang" class="text-slate-700">Tentang Sekolah</a>
+        <a href="#problem" class="text-slate-700">Permasalahan & Solusi</a>
+        <a href="#evaluasi" class="text-slate-700">Evaluasi</a>
+        <a href="#kontak" class="text-slate-700">Kontak</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-bg">
+    <div class="max-w-6xl mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight">Sosialisasi Pembelajaran Hidup dengan <span class="text-indigo-600">Pancasila</span></h1>
+          <p class="mt-4 text-slate-700">Membangun karakter bangsa yang berlandaskan nilai-nilai luhur melalui kegiatan sosialisasi yang dilaksanakan oleh mahasiswa Universitas Bina Sarana Informatika di SD Negeri Pamulang Tengah.</p>
+
+          <div class="mt-6 flex gap-3">
+            <a href="#dokumentasi" class="inline-block px-4 py-2 bg-indigo-600 text-white rounded-md shadow">Lihat Dokumentasi</a>
+          </div>
+
+          <ul class="mt-6 text-sm text-slate-600 space-y-2">
+            <li>📅 Tanggal: Selasa, 14 Oktober 2025</li>
+            <li>📍 Lokasi: SD Negeri Pamulang Tengah, Tangerang Selatan</li>
+            <li>👥 Penyelenggara: Mahasiswa Universitas Bina Sarana Informatika (UBSI)</li>
+          </ul>
+        </div>
+        <div class="relative">
+          <div class="rounded-2xl overflow-hidden card-shadow">
+            <img src="image5.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <!-- Tujuan -->
+    <article id="tujuan" class="mb-10">
+      <div class="bg-white rounded-2xl p-8 card-shadow">
+        <h2 class="text-2xl font-semibold text-slate-900">Tujuan Pelaksanaan Sosialisasi</h2>
+        <p class="mt-3 text-slate-700">Kegiatan sosialisasi ini diselenggarakan oleh mahasiswa UBSI dengan tujuan utama membentuk dan memperkuat karakter peserta didik berdasarkan nilai-nilai Pancasila. Tujuan spesifik meliputi:</p>
+        <ul class="mt-4 grid sm:grid-cols-2 gap-3 text-slate-700">
+          <li class="flex gap-3"><span class="text-indigo-600">•</span> Menanamkan nilai-nilai Pancasila sejak dini.</li>
+          <li class="flex gap-3"><span class="text-indigo-600">•</span> Mendorong sikap disiplin, tanggung jawab, dan toleransi.</li>
+          <li class="flex gap-3"><span class="text-indigo-600">•</span> Meningkatkan pemahaman siswa terhadap penerapan Pancasila dalam kehidupan sehari-hari.</li>
+          <li class="flex gap-3"><span class="text-indigo-600">•</span> Memberikan kontribusi nyata mahasiswa dalam pengabdian masyarakat.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Tentang sekolah -->
+    <article id="tentang" class="mb-10">
+      <div class="bg-white rounded-2xl p-8 card-shadow">
+        <h2 class="text-2xl font-semibold text-slate-900">Sekilas tentang SD Negeri Pamulang Tengah</h2>
+        <p class="mt-3 text-slate-700">SD Negeri Pamulang Tengah adalah sekolah dasar negeri yang berlokasi di Pamulang, Tangerang Selatan. Sekolah ini memiliki lingkungan belajar yang ramah anak dan berfokus pada pengembangan karakter serta kompetensi akademik. Beberapa poin penting tentang sekolah:</p>
+        <ol class="mt-4 list-decimal pl-5 text-slate-700 space-y-2">
+          <li>Lingkungan belajar kondusif dan aman bagi anak-anak.</li>
+          <li>Tenaga pendidik yang berdedikasi pada pengembangan moral dan akademik siswa.</li>
+          <li>Program-program sekolah yang mendukung kreativitas, literasi, dan kedisiplinan.</li>
+          <li>Populasi siswa dengan latar belakang beragam, menjadikan lokasi ini strategis untuk pembelajaran nilai persatuan.</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Problem and solution -->
+    <article id="problem" class="mb-10">
+      <div class="bg-white rounded-2xl p-8 card-shadow">
+        <h2 class="text-2xl font-semibold text-slate-900">Permasalahan & Solusi</h2>
+
+        <div class="mt-4 grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-medium text-slate-800">Permasalahan yang Ditemukan</h3>
+            <ul class="mt-3 list-disc pl-5 text-slate-700 space-y-2">
+              <li>Kurangnya pemahaman siswa tentang penerapan nilai Pancasila dalam konteks sehari-hari.</li>
+              <li>Beberapa konsep nilai terasa abstrak bagi anak usia SD.</li>
+              <li>Perbedaan tingkat pemahaman di antara siswa membutuhkan metode yang variatif.</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-medium text-slate-800">Solusi yang Diterapkan</h3>
+            <ul class="mt-3 list-disc pl-5 text-slate-700 space-y-2">
+              <li>Menggunakan media interaktif: permainan edukatif, video singkat, dan kartu nilai Pancasila.</li>
+              <li>Simulasi peran (role-play) agar siswa dapat merasakan langsung penerapan nilai.</li>
+              <li>Pendekatan kebersamaan dan diskusi kelompok untuk menguatkan pemahaman.</li>
+              <li>Pendampingan personal bagi siswa yang memerlukan perhatian ekstra.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Evaluasi -->
+    <article id="evaluasi" class="mb-10">
+      <div class="bg-white rounded-2xl p-8 card-shadow">
+        <h2 class="text-2xl font-semibold text-slate-900">Evaluasi Kegiatan</h2>
+        <p class="mt-3 text-slate-700">Setelah kegiatan selesai, tim pengabdian mahasiswa melakukan evaluasi untuk mengukur sejauh mana tujuan tercapai. Ringkasan hasil evaluasi:</p>
+        <ul class="mt-4 list-disc pl-5 text-slate-700 space-y-2">
+          <li>Siswa menunjukkan peningkatan partisipasi saat membahas nilai-nilai Pancasila.</li>
+          <li>Guru memberi tanggapan positif terhadap metode pengajaran yang interaktif.</li>
+          <li>Beberapa siswa mampu memberikan contoh nyata penerapan nilai Pancasila di rumah dan sekolah.</li>
+          <li>Rekomendasi: menambah variasi media edukasi dan mengadakan sesi lanjutan untuk penguatan jangka panjang.</li>
+        </ul>
+
+        <div class="mt-6 flex gap-3">
+          <a href="#dokumentasi" class="px-4 py-2 bg-indigo-600 text-white rounded-md">Lihat Dokumentasi</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Dokumentasi (placeholder gallery) -->
+    <section id="dokumentasi" class="mb-12">
+      <h3 class="text-xl font-semibold mb-4">Dokumentasi Kegiatan</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="rounded-lg overflow-hidden card-shadow"><img src="image1.jpg" alt="dokumentasi 1" class="w-full h-40 object-cover"></div>
+        <div class="rounded-lg overflow-hidden card-shadow"><img src="image2.jpg" alt="dokumentasi 2" class="w-full h-40 object-cover"></div>
+        <div class="rounded-lg overflow-hidden card-shadow"><img src="image4.jpg" alt="dokumentasi 3" class="w-full h-40 object-cover"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-50 border-t">
+    <div class="max-w-6xl mx-auto px-6 py-8 grid md:grid-cols-3 gap-6">
+      <div>
+        <div class="flex items-center gap-3">
+          <div>
+            <div class="font-semibold">Universitas Bina Sarana Informatika</div>
+            <div class="text-sm text-slate-600">Program Pengabdian Masyarakat</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h5 class="font-semibold">Quick links</h5>
+        <ul class="mt-3 text-sm text-slate-600 space-y-2">
+          <li><a href="#tujuan">Tujuan</a></li>
+          <li><a href="#tentang">Tentang Sekolah</a></li>
+          <li><a href="#problem">Permasalahan & Solusi</a></li>
+          <li><a href="#evaluasi">Evaluasi</a></li>
+        </ul>
+      </div>
+
+      <div id="kontak">
+        <h5 class="font-semibold">Tim Pengabdian Masyarakat UBSI</h5>
+        <p class="mt-3 text-sm text-slate-600">Ketua : Agisya Anindita Devara	44250525</p>
+        <p class="text-sm text-slate-600 mt-2">Anggota :</a></p>
+        <p class="text-sm text-slate-600">Cindy Aqeyla Kuncoro 44250686</a></p>
+        <p class="text-sm text-slate-600">Mayla Try Afshari Tanjung	44250527</a></p>
+        <p class="text-sm text-slate-600">Sachiko Salsa Airashii	44250951</a></p>
+        <p class="text-sm text-slate-600">Tiara Nabila	44251536</a></p>
+        <p class="text-sm text-slate-600">Yuliana Utomo	44252474</a></p>
+
+      </div>
+    </div>
+    <div class="text-center text-xs text-slate-500 py-4">© 2025 Universitas Bina Sarana Informatika. Semua hak dilindungi.</div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn && menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
